@@ -1,0 +1,34 @@
+.am-list-item{
+    height:60px !important;
+}
+.reg{
+    padding:20px 0;
+}
+.reg .reg-check{
+    position: relative;
+}
+.reg .reg-check a{
+    position: absolute !important;
+    right:0;
+    top:15px;
+    color:#ccc;
+}
+.reg .reg-check a::before{
+    border:none !important;
+}
+
+.reg .reg-checkbod{
+    padding:0 15px;
+}
+.reg .reg-checkbod a{
+    color:#ccc;
+    font-size:1em;
+    padding-left:10px;
+    line-height:21px;
+}
+.reg .reg-checkbod a span{
+    color:#00BC5B;
+}
+.reg a{
+    color:#00BC5B;
+}

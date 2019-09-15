@@ -1,0 +1,135 @@
+
+.main{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    overflow:scroll;
+    background:#F5F5F9;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+.main-content{
+    height:100%;
+    background:#F5F5F9;
+    display:flex;
+    flex-direction: column;
+}
+/* 头部 */
+.main-head{
+    flex:0 0 40px;
+    color:#fff;
+    background:#0a0;
+    display:flex;
+}
+.main-head .main-head-addr{
+    height:100%;
+    flex:0 0 20%;
+    text-align:center;
+    line-height:40px;
+}
+.main-head .main-head-search{
+    flex:1;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.main-head .main-head-search i{
+    display:block;
+    position: absolute;
+    width:30px;
+    height:30px;
+    background:url('../../../assets/images/search.png') center center no-repeat;
+    background-size:cover;
+    left:18px;
+}
+.main-head .main-head-search input{
+    width:90%;
+    height:28px;
+    border-radius:30px;
+    text-indent:40px;
+    border:none;
+    margin:0 auto;
+}
+.main-head .main-head-map{
+    flex:0 0 15%;
+    height:100%;
+    background:url('../../../assets/images/map.png') center center no-repeat;
+    background-size:50% 25px;
+}
+
+
+/* 内容 */
+.main-body{
+    flex:1;
+}
+.main-body .main-menu{
+    background:#fff;
+}
+
+.main-body .main-wikipedia{
+    margin-top:20px;
+    background:#fff;
+
+}
+.main-body .main-wikipedia p{
+    font-size:0.5em;
+    color:#ccc;
+    line-height:100%;
+}
+.main-body .main-wikipedia p span{
+    font-size:3em;
+    font-weight:bold;
+    color:#00BC5B;
+}
+.main-body .main-like {
+    margin-top:20px;
+    background:#fff;
+}
+.main-body .main-like p span{
+    font-size:1.2em;
+}
+
+.main-body .main-like .main-like-item{
+    display:flex;
+    height:150px;
+}
+.main-body .main-like .main-like-item .main-like-item-img{
+    flex:0 0 35%;
+    height:100%;
+    margin-right:5px;
+}
+.main-body .main-like .main-like-item .main-like-item-img img{
+    width:100%;
+}
+.main-body .main-like .main-like-item .main-like-item-info{
+    flex:1;
+    height:100%;
+}
+.main-body .main-like .main-like-item .main-like-item-info h2{
+    margin:0;
+}
+.main-body .main-like .main-like-item .main-like-item-info p{
+    margin:0;
+    line-height:1.7em;
+    color:rgb(158, 158, 158);
+}
+.main-body .main-like .main-like-item .main-like-item-price{
+    flex:0 0 25%;
+    height:100%;
+}
+.main-body .main-like .main-like-item .main-like-item-price p{
+    text-align:center;
+    color:#f00;
+    font-weight:bold;
+    font-size:1em;
+    margin:0;
+}
+
+
+.main-body .am-grid.am-grid-square .am-grid-item .am-grid-item-inner-content .am-grid-icon {
+    width: 60% !important;
+}

@@ -1,0 +1,59 @@
+.login{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+.login .login-logo{
+    width:100%;
+    flex:0 0 30%;
+    background:url('../../assets/images/logo.png') center center no-repeat;
+    background-size:30% 60%;
+}
+.login .login-content{
+    flex:1;
+    /* background:#0a0; */
+}
+.login .login-content .login-content-input{
+    padding:10px 20px;
+    position: relative;
+}
+.login .login-content .login-content-input p{
+    border-bottom:1px solid #ccc;
+}
+.login .login-content .login-content-input p:first-child label{
+    display:block;
+    width:35px;
+    height:35px;
+    position: absolute;
+    left:15px;
+    top:26px;
+    background:url("../../assets/images/user.png") center center no-repeat;
+    background-size:35px 35px;
+}
+.login .login-content .login-content-input p:nth-child(2) label{
+    display:block;
+    width:35px;
+    height:35px;
+    position: absolute;
+    left:15px;
+    top:78px;
+    background:url("../../assets/images/password.png") center center no-repeat;
+    background-size:35px 35px;
+}
+.login .login-content .login-content-input input{
+    width:100%;
+    height:35px;
+    border:none;
+    outline:none;
+    text-indent:50px;
+    font-size:1em;
+}
+
+.login .login-foot{
+    flex:0 0 5%;
+    text-align:center;
+}
+.login .login-foot a{
+    color:#ccc;
+    font-size:0.5em;
+}

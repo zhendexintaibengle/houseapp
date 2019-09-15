@@ -1,0 +1,95 @@
+.my{
+    height:100%;
+    background:#F5F5F9;
+}
+
+.my .my-head{
+    background:#5ECAFC;
+    padding:15px 0;
+}
+
+.my .my-head .my-head-top{
+    display:flex;
+}
+
+.my .my-head .my-head-top .my-head-top-img{
+    flex:0 0 25%;
+}
+
+.my .my-head .my-head-top .my-head-top-login{
+    flex:1;
+}
+.my .my-head .my-head-top .my-head-top-login p{
+    margin:5px 0;
+    color:#fff;
+    font-size:1em;
+}
+
+.my .my-head .my-head-top .my-head-top-login a{
+    font-size:1.7em;
+    color:#fff;
+    font-weight:bold;
+}
+
+.my .my-head .my-head-top .my-head-top-set{
+    flex:0 0 10%;
+}
+.my .my-head .my-head-top .my-head-top-set img{
+    width:70%;
+}
+.my .my-head .my-head-bottom div p{
+    color:#fff;
+}
+.my .my-head .my-head-bottom div p:first-child{
+    text-align:center;
+    font-size:1.4em;
+}
+.my .my-head .my-head-bottom div p:last-child{
+    font-size:1.4em;
+    text-align:center;
+}
+.my .my-head .my-head-bottom div img{
+    width:20px;
+}
+.my .my-head .my-head-bottom div img.my-head-bottom-money{
+    width:40px;
+    top:4px;
+    position: relative;
+}
+.my .my-head .my-head-bottom div:nth-child(2) img{
+    position: relative;
+    top:0;
+}
+.my .my-head .my-head-bottom div:nth-child(3) img{
+    position: relative;
+    top:3px;
+}
+
+.my .my-content-1{
+    background:#fff;
+}
+.my .my-content-1 ul,.my .my-content-1 li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.my .my-content-1 li{
+    padding:10px 0;
+    border-bottom:1px solid #ccc;
+    font-size:1.2em;
+    line-height:28px;
+}
+.my .my-content-1 li img{
+    width:25px;
+    position: relative;
+    top: 5px;
+    left:0px;
+}
+.my .my-content-1:last-of-type li:last-child{
+    border-bottom:none;
+}
+
+.my a{
+    color:rgb(58, 58, 58);
+}
